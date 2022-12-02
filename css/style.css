@@ -1,0 +1,134 @@
+@font-face {
+      font-family: "Satoshi";
+      src: url('../fonts/Satoshi-Variable.ttf') format('truetype');
+    }
+:root{
+	--f7-theme-color:#242230;
+	--f7-navbar-bg-color: #242230; /*navbar*/
+	--f7-navbar-text-color:#fff;
+	--f7-navbar-link-color: #fff;
+	--f7-bars-bg-color:#FFFAF4;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+  	--f7-card-border-radius: 20px;
+	--f7-card-bg-color: #242230;
+	--f7-tabbar-label-text-transform: none;
+	--color-morado-main:#242230;
+	--color-beige:#FFFAF4;
+	--color-morado:#5252D4;
+	--color-acento: #BE102A; 
+	
+}
+body{
+	font-family: "Satoshi", sans-serif;
+	font-size: 14px;
+	color: #1E1E1E;
+	background-color: var(--color-beige);
+}
+.page{
+		background-color: var(--color-beige);
+}
+.img-fluid{
+	max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 2px 0;
+}
+.block-title-medium{
+	font-weight: 700;
+}
+
+
+.welcome{
+	background-color: var(--f7-theme-color);
+	padding: 25px 20px;
+	color: #fff;
+}
+.welcome h1{
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.semana{
+	padding: 20px 20px;
+}
+
+.mascota{
+	padding: 20px 20px;
+}
+
+.mascota .button{
+	background-color: #BE102A;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: none;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.opciones{
+	padding: 20px 20px 85px;
+}
+
+.card-content{
+	color: #fff;
+}
+.home-aprender{
+	padding:15px 20px;
+	color: var(--color-beige);
+}
+.home-aprender h3{
+	font-weight: 300;
+}
+.home-aprender .button{
+	background-color: var(--color-acento);
+	color: var(--color-beige);
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: none;
+	border-radius: 100px;
+	margin-top: 20px;
+}
+
+.block-title-medium{
+	font-weight: 600;
+}
+
+
+.row-cuentos{
+	color:var(--color-beige); 
+	padding:15px 20px;
+
+}
+.row-cuentos .material-icons{
+	color:var(--color-beige); 
+}
+.card-princess{
+	height: 300px;
+	position: relative;
+}
+.row-minutes{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
